@@ -60,13 +60,14 @@ const TemplateUse = () => {
                         src: "https://v16-cc.capcut.com/3862658adb539429dd3a7fd4f7fa3004/66d1c984/video/tos/alisg/tos-alisg-ve-8fe9aq-sg/o4zgtDbDeACFISOg3oCYbMFCFwQFeOdmnUgezL/?a=348188&bti=NTo2NmY1NDM6&ch=0&cr=0&dr=0&lr=all&cd=0%7C0%7C0%7C0&cv=1&br=2708&bt=1354&cs=0&ds=3&ft=GAAO2Inz7Thbc9XrXq8Zmo&mime_type=video_mp4&qs=0&rc=OjdkaGQ5NWY2OTo8aTM4OkBpanB2eGQ6Zjd4ajMzOGVkNEAzNF9fNjI1XmMxL2BfXzQzYSNnYC1hcjRnYC9gLS1kYi1zcw%3D%3D&vvpl=1&l=021724506228540fdbddc51500002451843a43d800000f57c08e1&btag=e00088000",
                     },
                 ].map((video, index) => (
-                    <div className="pc_landing_template-video-container">
+                    <div
+                        className="pc_landing_template-video-container"
+                        key={index}
+                    >
                         <div className="pc_landing_template-video-item">
                             <video
-                                key={index}
                                 poster={video.poster}
                                 preload="auto"
-                                disablePictureInPicture="true"
                                 loop
                                 muted
                                 autoPlay

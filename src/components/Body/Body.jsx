@@ -27,13 +27,13 @@ const Body = () => {
                     />
                 </video>
             </section>
-            <div class="pc_landing_main_screen-bg-mask"></div>
+            <div className="pc_landing_main_screen-bg-mask"></div>
             <div className="pc_landing_main_screen-sec main_screen-flex-column">
                 <h1 className="pc_landing_main_screen-sec-title">
                     Free all-in-one video editor for everyone to create anything
                     anywhere
                 </h1>
-                <h1 class="m-main-feature-wrapper-container-title">
+                <h1 className="m-main-feature-wrapper-container-title">
                     One-stop platform to start your creation journey
                 </h1>
                 <p className="pc_landing_main_screen-sec-subtitle">
