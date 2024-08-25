@@ -366,13 +366,16 @@ button.proVideo__accordion--button {
         width: 14.8rem;
     }
     .m-main-feature-wrapper-container-title {
+        display: block;
         max-width: 32rem;
     }
     .section-content {
-        margin-top: -200px;
+        margin-top: -150px;
     }
 }
-
+.m-main-feature-wrapper-container-title {
+    display: none;
+}
 @media only screen and (max-width: 768px) {
     .pc_landing_main_screen-sec-subtitle{
         display: none;
@@ -392,6 +395,18 @@ button.proVideo__accordion--button {
         object-fit: cover;
         position: absolute;
         width: 100%;
+    }
+    .m-main-feature-wrapper-container-title {
+        display: block;
+    }
+    button.proVideo__accordion--button {
+        min-height: 6rem;
+    }
+    .proVideo__accordion--body {
+        padding-bottom: 20px;
+    }
+    .section-content {
+        padding-bottom: 0;
     }
 }
 
