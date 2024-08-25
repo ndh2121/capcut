@@ -1,0 +1,163 @@
+.dark-theme-container {
+    width: 100%;
+}
+
+.lvssr-footer {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 920px) {
+    .libs-pc-footer-wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 100px 100px 0;
+    }
+
+    .libs-pc-footer-wrapper-content {
+        width: fit-content;
+    }
+    .libs-pc-footer-container {
+        display: flex;
+        width: 1200px;
+    }
+    .libs-pc-footer-logo-container {
+        flex-shrink: 0;
+        margin-right: 100px;
+        width: 240px;
+    }
+    .libs-pc-footer-logo-container > img {
+        height: 32px;
+    }
+    /* .libs-pc-footer-logo__light {
+        display: none;
+    } */
+
+    .libs-pc-footer-logo__dark {
+        display: block;
+    }
+
+    .libs-pc-footer-context {
+        color: var(hsla(0, 0%, 100%, 0.7), rgba(246, 247, 254, 0.7));
+        font-family: "Albert Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 35px;
+        margin-top: 20px;
+    }
+
+    .libs-pc-footer-logo-container .libs-pc-footer-language {
+        align-items: center;
+        display: flex;
+        font-family: "Albert Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+    .libs-pc-footer-social {
+        display: flex;
+        margin-top: 35px;
+        align-items: center;
+    }
+    .libs-pc-footer-social>* {
+        margin-right: 20px;
+    }
+    .libs-pc-footer-social .socialLink-img__dark {
+        display: block;
+        height: 20px;
+        width: 20px;
+    }
+    .libs-pc-footer-links {
+        display: flex;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        gap: 80px 36px;
+        justify-content: space-between;
+    }
+    .libs-pc-footer-links .group {
+        display: flex;
+        flex: 1 1;
+        flex-direction: column;
+        margin: 0;
+        max-width: 220px;
+        min-width: 180px;
+    }
+
+    .libs-pc-footer-links .group .title {
+        color: #16161d;
+        font-family: "Albert Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 24px;
+        margin-bottom: 1.7rem;
+        text-align: left;
+    }
+    .libs-pc-footer-links .link {
+        color: #b4b4b4;
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        font-family: "Albert Sans", sans-serif;
+        font-weight: 500;
+        margin-bottom: 1.7rem;
+        padding: 0;
+    }
+
+    .libs-pc-footer-links .link-title {
+        font-family: "Albert Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-left: 0;
+    }
+
+    .libs-pc-footer-bottom-content {
+        align-items: center;
+        border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+        margin-top: 100px;
+        padding: 28px 0;
+    }
+    .libs-pc-footer-bottom-content .legal-wrap {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 0;
+    }
+    .libs-pc-footer-bottom-content .friendship-site-wrap {
+        align-items: center;
+        color: #d6d6d6;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: "Albert Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        gap: 16px 0;
+        line-height: 14px;
+    }
+    .libs-pc-footer-bottom-content .policy-info {
+        align-items: center;
+        color: #cdcdcd;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: Albert Sans Regular;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px;
+        margin-right: 20px;
+        transition: all .24s;
+    }
+}
+
+.lv-btn-secondary:not(.lv-btn-disabled) {
+    background-color: rgba(229, 236, 255, .1);
+    border: 1px solid transparent;
+    color: #fafbff;
+}

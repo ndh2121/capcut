@@ -1,0 +1,30 @@
+.pc_landing_trust_by {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #0e0e11;
+    flex-direction: column;
+    padding: 7.1rem 2.2rem;
+    width: 100%;
+}
+
+.pc_landing_trust_by-title {
+    color: #fafbff;
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin: 1.6rem 0 3.5rem 0;
+}
+
+.pc_landing_trust_by-flex-row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.pc_landing_trust_by-img {
+    height: 3.2rem !important;
+    margin-right: 5.7rem;
+    width: auto !important;
+}
