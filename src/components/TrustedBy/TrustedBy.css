@@ -10,7 +10,7 @@
 
 .pc_landing_trust_by-title {
     color: #fafbff;
-    font-family: 'Albert Sans', sans-serif;
+    font-family: "Albert Sans", sans-serif;
     font-size: 2rem;
     line-height: 2.4rem;
     margin: 1.6rem 0 3.5rem 0;
@@ -21,10 +21,43 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-
 }
 .pc_landing_trust_by-img {
-    height: 3.2rem !important;
+    height: 3.2rem;
     margin-right: 5.7rem;
-    width: auto !important;
+    width: auto;
+}
+
+@media only screen and (max-width: 430px) {
+    .pc_landing_trust_by {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 64px 25px;
+        width: 100%;
+    }
+    .pc_landing_trust_by-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .pc_landing_trust_by-flex-row {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .pc_landing_trust_by-img {
+        height: 18px !important;
+        width: fit-content;
+    }
+    .pc_landing_trust_by-img:nth-child(1) {
+        margin-left: 38px;
+    }
+    .pc_landing_trust_by-img img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
 }

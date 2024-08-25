@@ -6,24 +6,24 @@
 }
 
 .pc_landing_AItools-title {
-    color: #fafbff;;
+    color: #fafbff;
     font-family: "Albert Sans", sans-serif;
     font-weight: bold;
     font-size: 5rem;
     line-height: 7rem;
     margin: 18rem auto 2rem;
     max-width: 140rem;
-    padding: 0 .4166666667rem;
+    padding: 0 0.4166666667rem;
     text-align: center;
 }
 
 .pc_landing_AItools-subtitle {
-    color: rgba(246, 247, 255, .7);
+    color: rgba(246, 247, 255, 0.7);
     font-family: "Albert Sans", sans-serif;
     font-weight: Medium;
     font-size: 2rem;
     line-height: 2.5rem;
-    margin: .125rem 0 0;
+    margin: 0.125rem 0 0;
     text-align: center;
 }
 
@@ -37,8 +37,8 @@
 }
 
 .pc_landing_AItools-content-item {
-    background: rgba(229, 236, 255, .1);
-    border-radius: .833333333rem;
+    background: rgba(229, 236, 255, 0.1);
+    border-radius: 0.833333333rem;
     margin: 0 1.041666667rem;
     min-height: 9.635416667rem;
     position: relative;
@@ -46,7 +46,7 @@
 }
 
 .pc_landing_AItools-content-item img {
-    border-radius: .833333333rem .833333333rem 0 0;
+    border-radius: 0.833333333rem 0.833333333rem 0 0;
     height: auto;
     width: 100%;
 }
@@ -68,7 +68,7 @@
 }
 
 .pc_landing_AItools-content-item-subtitle {
-    color: rgba(246, 247, 254, .7);
+    color: rgba(246, 247, 254, 0.7);
     font-family: "Albert Sans", sans-serif;
     font-size: 1.4rem;
     font-style: normal;
@@ -76,7 +76,7 @@
     line-height: 1.754166667rem;
     opacity: 1;
     text-align: left;
-    transition: opacity .3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .pc_landing_AItools-content-item-abtn {
@@ -88,7 +88,7 @@
     position: absolute;
     top: 3.5rem;
     width: 100%;
-    transition: opacity .3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .pc_landing_AItools-content-item-abtn button {
@@ -97,9 +97,40 @@
     border: 1px solid transparent;
 }
 
-.pc_landing_AItools-content-item:hover .pc_landing_AItools-content-item-subtitle {
+.pc_landing_AItools-content-item:hover
+    .pc_landing_AItools-content-item-subtitle {
     opacity: 0;
 }
 .pc_landing_AItools-content-item:hover .pc_landing_AItools-content-item-abtn {
     opacity: 1;
+}
+
+@media only screen and (max-width: 430px) {
+    .pc_landing_AItools-title {
+        margin: 6.4rem auto 1rem;
+        color: #fafbff;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        text-transform: capitalize;
+    }
+    .pc_landing_AItools-subtitle {
+        color: rgba(237, 240, 253, .5);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .pc_landing_AItools-content {
+        margin-top: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pc_landing_AItools-content-item {
+        margin-top: 28px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
 }

@@ -1,7 +1,12 @@
 .pc_landing_special_func-title {
     --gradient-x: 0%;
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(120deg, #454545 0, #e5f2f2 var(--gradient-x), #454545 100%);
+    background: linear-gradient(
+        120deg,
+        #454545 0,
+        #e5f2f2 var(--gradient-x),
+        #454545 100%
+    );
     font-family: "Albert Sans", sans-serif;
     -webkit-background-clip: text;
     font-size: 12rem;
@@ -18,8 +23,6 @@
     align-items: center;
     justify-content: center;
 }
-
-
 
 .pc_landing_special_func-layout {
     align-items: center;
@@ -45,7 +48,7 @@
 
 .pc_landing_special_func-detail-title {
     color: #e6e6e6;
-    font-family: 'Albert Sans', sans-serif;
+    font-family: "Albert Sans", sans-serif;
     font-weight: 800;
     font-size: 5rem;
     line-height: 6rem;
@@ -55,7 +58,7 @@
 
 .pc_landing_special_func-detail-descirbe {
     color: #7a7a85;
-    font-family: 'Albert Sans', sans-serif;
+    font-family: "Albert Sans", sans-serif;
     font-weight: 500;
     font-size: 2rem;
     font-style: normal;
@@ -76,7 +79,7 @@
     cursor: pointer;
     outline: none;
     position: relative;
-    transition: all .1s linear;
+    transition: all 0.1s linear;
     user-select: none;
     white-space: nowrap;
     align-items: center;
@@ -90,4 +93,53 @@
     gap: 20px;
     margin-top: 3rem;
     float: left;
+}
+
+@media only screen and (max-width: 430px) {
+    .pc_landing_special_func-title {
+        padding: 32px 24px 0;
+        text-align: center;
+        font-size: 28px;
+    }
+    .pc_landing_special_func-layout {
+        padding-top: 0;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .pc_landing_special_func-speech {
+        width: 90%;
+    }
+
+    .pc_landing_special_func-speech-bgvideo {
+        border-radius: 5px;
+    }
+    .pc_landing_special_func-detail-title {
+        font-size: 28px;
+        line-height: 36px;
+        margin: 24px 0 0;
+        text-align: center;
+    }
+    .pc_landing_special_func-detail-descirbe {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 8px 0 0;
+        text-align: center;
+        max-width: none;
+        padding: 0 20px;
+    }
+    .pc_landing_special_func-detail {
+        width: 100%;
+    }
+    .button_axhss {
+        display: none;
+    }
+
+    .lkdidskso {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 768px) {
 }

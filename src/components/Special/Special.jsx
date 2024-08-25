@@ -64,7 +64,7 @@ const Special = () => {
             </div>
 
             <div className="ldkcmsldsoe">
-                <section className="pc_landing_special_func-layout">
+                <section className="pc_landing_special_func-layout lkdidskso">
                     <div className="pc_landing_special_func-detail">
                         <h2 className="pc_landing_special_func-detail-title">
                             Text to speech

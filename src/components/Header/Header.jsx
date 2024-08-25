@@ -39,7 +39,7 @@ const Header = () => {
                     <div className="DJYsflDuETkO8ue_iVc4">
                         <a
                             target="_self"
-                            href="https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/installer/capcut_capcutpc_0_1.2.6_installer.exe"
+                            href="#"
                             className="lv-btn lv-btn-size-default lv-btn-shape-square lv-btn-link black-text"
                         >
                             <span>

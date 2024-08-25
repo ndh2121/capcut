@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 17.7rem 0;
+    background-color: #121217;
 }
 
 .pc_landing_template-detail {
@@ -18,7 +19,7 @@
 
 .pc_landing_template-title {
     color: #fafbff;
-    font-family: 'Albert Sans', sans-serif;
+    font-family: "Albert Sans", sans-serif;
     font-weight: 800;
     font-size: 6rem;
     line-height: 6.5rem;
@@ -59,4 +60,38 @@
     width: 100%;
 }
 
+@media only screen and (max-width: 430px) {
+    .pc_landing_template {
+        padding: 32px 0 60px;
+        width: 100%;
+    }
+    .pc_landing_template-detail {
+        padding: 0 20px;
+        margin-bottom: 70px;
+    }
+    .pc_landing_template-title {
+        color: #e6e6e6;
+        font-size: 28px;
+        font-style: normal;
+        margin: 0;
+        text-align: center;
+        line-height: 34px;
+    }
+    .pc_landing_template-video-list {
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        overflow-x: auto;
+        width: calc(100% - 24px);
+    }
+    .pc_landing_template-video-container {
+        border-radius: 8px;
+        flex-shrink: 0;
+        margin-right: 32px;
+        overflow: hidden;
+        width: 168px;
+    }
+}
 
+@media only screen and (max-width: 768px) {
+}

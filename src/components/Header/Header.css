@@ -13,9 +13,9 @@
     justify-content: space-between;
     padding: 0 40px 0 40px;
     box-sizing: border-box;
-    /* position: fixed;
+    position: fixed;
     left: 0;
-    top: 0; */
+    top: 0;
     z-index: 100;
     background-color: #000;
 }

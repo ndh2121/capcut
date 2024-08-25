@@ -23,7 +23,7 @@ const TopAI = () => {
                             suggestions.
                         </div>
                         <a
-                            href="https://dreamina.capcut.com/"
+                            href="#"
                             className="pc_landing_AItools-content-item-abtn"
                         >
                             <button
@@ -49,7 +49,7 @@ const TopAI = () => {
                             Turn text into video on social media platforms.
                         </div>
                         <a
-                            href="https://inspirevid.capcut.com/ai-tools/text-to-video"
+                            href="#"
                             className="pc_landing_AItools-content-item-abtn"
                         >
                             <button
@@ -75,7 +75,7 @@ const TopAI = () => {
                             Remove background and resize up to 50 images.
                         </div>
                         <a
-                            href="https://packpic.capcut.com/editor-batch"
+                            href="#"
                             className="pc_landing_AItools-content-item-abtn"
                         >
                             <button

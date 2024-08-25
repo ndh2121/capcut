@@ -65,10 +65,20 @@
     font-size: 1.5rem;
 }
 
-
 @media only screen and (max-width: 768px) {
     .gallery-list {
         grid-template-columns: repeat(2, 1fr);
-        /* gap: 4.6rem 3rem; */
+        gap: 40px 30px;
+        padding: 0 15px;
     }
+    .ksdjjdscs0 {
+        margin-top: 20px;
+        margin-bottom: -100px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    
 }

@@ -43,15 +43,14 @@ const Body = () => {
                 <div className="pc_landing_main_screen-v4">
                     <a
                         target="_self"
-                        href="https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/installer/capcut_capcutpc_0_1.2.6_installer.exe"
+                        href="#"
                         className="lv-btn lv-btn-primary lv-btn-size-large lv-btn-shape-square lv-btn-link black-text large-button download_margin"
                     >
                         <span>Download</span>
                     </a>
                     <a
-                        data-query="?utm_medium=capcut&amp;utm_source=web_homepage_button_b&amp;start_tab=video&amp;current_page=landing_page&amp;enter_from=landing_page_top"
                         target="_self"
-                        href="https://dreamina.capcut.com/ai-tool/home"
+                        href="#"
                         className="lv-btn lv-btn-secondary lv-btn-size-large lv-btn-shape-square lv-btn-link pc_landing_main_screen-v4-button white_text"
                     >
                         <span>Try AI-powered generator</span>
