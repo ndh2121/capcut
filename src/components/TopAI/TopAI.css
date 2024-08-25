@@ -127,7 +127,9 @@
         align-items: center;
     }
     .pc_landing_AItools-content-item {
-        margin-top: 28px;
+        margin: 30px;
+        margin-bottom: 0;
+        width: auto;
     }
     
 }
