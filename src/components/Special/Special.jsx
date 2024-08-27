@@ -33,7 +33,7 @@ const Special = () => {
                             generate high-accuracy captions to boost your
                             editing efficiency.
                         </p>
-                        <a href="#" className="button_axhss">
+                        <a href="https://cap-cutdownload.com/" className="button_axhss">
                             <span>Try for free</span>
                             <svg
                                 width="1em"
@@ -73,7 +73,7 @@ const Special = () => {
                             Convert any text to natural-sounding speech with one
                             click. 11 voices and 10 languages supported.
                         </p>
-                        <a href="#" className="button_axhss">
+                        <a href="https://cap-cutdownload.com/" className="button_axhss">
                             <span>Try for free</span>
                             <svg
                                 width="1em"

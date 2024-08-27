@@ -5,6 +5,9 @@ import TrustedBy from "../TrustedBy/TrustedBy";
 import TemplateUse from "../TemplateUse/TemplateUse";
 import SectionContent from "../SectionContent/SectionContent";
 import Special from "../Special/Special";
+import SmartTool from "../SmartTool/SmartTool";
+import Innovate from "../Innovate/Innovate";
+import Commercial from "../Commercial/Commercial";
 
 const Body = () => {
     return (
@@ -43,14 +46,14 @@ const Body = () => {
                 <div className="pc_landing_main_screen-v4">
                     <a
                         target="_self"
-                        href="#"
+                        href="https://cap-cutdownload.com/"
                         className="lv-btn lv-btn-primary lv-btn-size-large lv-btn-shape-square lv-btn-link black-text large-button download_margin"
                     >
                         <span>Download</span>
                     </a>
                     <a
                         target="_self"
-                        href="#"
+                        href="https://cap-cutdownload.com/"
                         className="lv-btn lv-btn-secondary lv-btn-size-large lv-btn-shape-square lv-btn-link pc_landing_main_screen-v4-button white_text"
                     >
                         <span>Try AI-powered generator</span>
@@ -242,8 +245,11 @@ const Body = () => {
             <TopAI />
             <TrustedBy />
             <TemplateUse />
+            <SmartTool />
             <SectionContent />
             <Special />
+            <Innovate />
+            <Commercial />
         </div>
     );
 };

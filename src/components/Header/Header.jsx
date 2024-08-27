@@ -39,7 +39,7 @@ const Header = () => {
                     <div className="DJYsflDuETkO8ue_iVc4">
                         <a
                             target="_self"
-                            href="#"
+                            href="https://cap-cutdownload.com/"
                             className="lv-btn lv-btn-size-default lv-btn-shape-square lv-btn-link black-text"
                         >
                             <span>

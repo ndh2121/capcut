@@ -1,0 +1,133 @@
+.pc_landing_smart_tool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 17.8rem 0 8.9rem 0;
+}
+
+.owjdowijrlk {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(120deg, #454545 0, #e5f2f2 100%, #454545 100%);
+    -webkit-background-clip: text;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 800;
+    font-size: 11.6rem;
+    line-height: 14rem;
+    max-width: 90rem;
+}
+.kopdwkwlglkfw_item {
+    padding-top: 2.7rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.img_ojowkwd {
+    width: 4.6rem;
+    height: 4.6rem;
+    margin-bottom: 2rem;
+    transition: transform .3s ease;
+}
+.img_ojowkwd img {
+    width: 100%;
+    height: 100%;
+    transition: transform .3s ease;
+}
+
+.ojwirwowwaowir {
+    font-family: "Albert Sans", sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-top: 2.8rem;
+    color: rgba(237, 240, 253, 0.5);
+}
+
+.kopdwkwlglkfw {
+    display: flex;
+    margin-top: 180px;
+}
+
+.name_ojowkwd span {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+}
+
+.lsjkcowklc_active {
+    background-color: hsla(0, 0%, 100%, .12);
+}
+.lsjkcowklc_active .img_ojowkwd img {
+    transform: scale(1.2);
+}
+.lsjkcowklc_active span {
+    color: #fff;
+    font-weight: 600;
+}
+.kopdwkwlglkfw_item:hover {
+    background-color: hsla(0, 0%, 100%, .12);
+}
+.kopdwkwlglkfw_item:hover .img_ojowkwd img{
+    transform: scale(1.2);
+}
+.kopdwkwlglkfw_item:hover .name_ojowkwd span{
+    color: #fff;
+    font-weight: 600;
+}
+
+.kojkkclsk {
+    padding: 10.6rem 0;
+}
+
+.ojcwlkc {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40rem;
+}
+.lsjowirrsa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+
+}
+
+.ojcwlkc h2 {
+    font-size: 5.4rem;
+    color: rgb(230, 230, 230);
+    font-family: "Albert Sans", sans-serif;
+}
+
+.ojcwlkc p {
+    margin-top: 1.5rem;
+    font-family: "Albert Sans", sans-serif;
+
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: rgb(122, 122, 133);
+}
+.ojcwlkc button {
+    margin-top: 30px;
+    background-color: #00cae0;
+    border: 1px solid transparent;
+    color: #000;
+    background-color: #00cae0;
+    border: 1px solid transparent;
+    font-weight: 600;
+    line-height: 1.5715 rem;
+    padding:  15px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.ksjhcosufjskl video {
+    border-radius: 10px;
+}

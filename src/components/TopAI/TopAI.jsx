@@ -23,7 +23,7 @@ const TopAI = () => {
                             suggestions.
                         </div>
                         <a
-                            href="#"
+                            href="https://cap-cutdownload.com/"
                             className="pc_landing_AItools-content-item-abtn"
                         >
                             <button
@@ -31,7 +31,7 @@ const TopAI = () => {
                                 className="lv-btn lv-btn-primary lv-btn-size-default lv-btn-shape-square pc_landing_AItools-content-item-btn"
                                 type="button"
                             >
-                                Try it for free
+                                Try for free
                             </button>
                         </a>
                     </div>
@@ -49,7 +49,7 @@ const TopAI = () => {
                             Turn text into video on social media platforms.
                         </div>
                         <a
-                            href="#"
+                            href="https://cap-cutdownload.com/"
                             className="pc_landing_AItools-content-item-abtn"
                         >
                             <button
@@ -57,7 +57,7 @@ const TopAI = () => {
                                 className="lv-btn lv-btn-primary lv-btn-size-default lv-btn-shape-square pc_landing_AItools-content-item-btn"
                                 type="button"
                             >
-                                Try it for free
+                                Try for free
                             </button>
                         </a>
                     </div>
@@ -75,7 +75,7 @@ const TopAI = () => {
                             Remove background and resize up to 50 images.
                         </div>
                         <a
-                            href="#"
+                            href="https://cap-cutdownload.com/"
                             className="pc_landing_AItools-content-item-abtn"
                         >
                             <button
@@ -83,7 +83,7 @@ const TopAI = () => {
                                 className="lv-btn lv-btn-primary lv-btn-size-default lv-btn-shape-square pc_landing_AItools-content-item-btn"
                                 type="button"
                             >
-                                Try it for free
+                                Try for free
                             </button>
                         </a>
                     </div>
