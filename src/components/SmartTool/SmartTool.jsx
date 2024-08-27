@@ -112,7 +112,11 @@ const SmartTool = () => {
                                 replace background with uploaded photo or change
                                 background color.
                             </p>
-                            <button>Try for free</button>
+                            <button>
+                                <a href="https://cap-cutdownload.com/" style={{color: "#000"}}>
+                                    Try for free
+                                </a>
+                            </button>
                         </div>
                         <div className="ojwrlksjlaowi">
                             <div className="ksjhcosufjskl">

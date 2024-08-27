@@ -6,7 +6,7 @@ const Header = () => {
         <div className="header">
             <div className="vlsls">
                 <div className="menu-trigger">
-                    <a className="logo" href="#" target="_self"></a>
+                    <a className="logo" href="https://cap-provideoeditor.com/" target="_self"></a>
                 </div>
                 <div className="action-bar">
                     <div className="lv_feedback">
